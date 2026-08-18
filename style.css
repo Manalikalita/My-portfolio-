@@ -42,15 +42,15 @@ ul{ list-style:none; }
   max-width:1100px; margin:0 auto; padding:16px 24px;
   display:flex; align-items:center; justify-content:space-between;
 }
-.logo{ font-family:var(--serif); font-size:1.4rem; font-weight:600; }
+.logo{ font-family:var(--serif); font-size:1.5rem; font-weight:600; }
 .logo span{ color:var(--accent); }
 .tabs{ display:flex; gap:4px; }
 .tab{
-  font-family:var(--mono); font-size:0.75rem; color:var(--text-dim);
+  font-family:var(--mono); font-size:0.85rem; color:var(--text-dim);
   padding:8px 14px; border-radius:6px 6px 0 0; border:1px solid transparent;
   transition:all 0.25s ease; display:flex; gap:6px; align-items:center;
 }
-.tab small{ font-family:var(--sans); font-size:0.8rem; }
+.tab small{ font-family:var(--sans); font-size:0.9rem; }
 .tab:hover{ color:var(--text); background:var(--surface); }
 .tab.active{ color:var(--accent); border-color:var(--border); background:var(--surface); }
 .burger{ display:none; flex-direction:column; gap:5px; background:none; border:none; cursor:pointer; }

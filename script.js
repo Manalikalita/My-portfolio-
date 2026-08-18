@@ -24,7 +24,7 @@ window.addEventListener("scroll", () => {
 });
 
 // ---- Typing effect in hero ----
-const words = ["clean web apps.", "user-friendly interfaces.", "full-stack projects.", "solutions that scale."];
+const words = [ "user-friendly interfaces.", "data analysis.", "solutions that scale."];
 const typedEl = document.getElementById("typed");
 let wordIndex = 0, charIndex = 0, deleting = false;
 
