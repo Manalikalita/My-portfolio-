@@ -135,7 +135,7 @@ min-width: 0; }
 }
 .hero-photo img:hover{ filter:grayscale(0%); }
 
-@media (max-width:800px){
+@media (max-width:800px){ 
   .hero-inner{ flex-wrap:wrap; flex-direction:column-reverse; text-align:center; }
   .hero-photo{ margin:0 auto; }
 }
